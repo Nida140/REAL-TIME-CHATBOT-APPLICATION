@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#userInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#sendButton {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 576px) {
+    .chatbox {
+        width: 100%;
+    }
+    #chatbox-container {
+        height: 250px;
+    }
+}
