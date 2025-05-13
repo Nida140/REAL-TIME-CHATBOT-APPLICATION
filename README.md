@@ -48,3 +48,7 @@ Enhance the bot's responses to include more complex interactions.
 Integrate natural language processing (NLP) for smarter and more flexible conversations.
 
 Add backend support for storing chat history and providing personalized responses.
+
+**OUTPUT
+
+![Image](https://github.com/user-attachments/assets/115e25e9-2475-427a-838b-63b82924f2e7)
